@@ -4,8 +4,8 @@ module.exports = {
     mode: 'production',
     entry: './dist/index.js',
     output: {
-        filename: 'SequinUtils.js',
-        library: 'SequinUtils',
+        filename: 'TurtleCoinUtils.js',
+        library: 'TurtleCoinUtils',
         libraryTarget: 'umd'
     },
     node: {

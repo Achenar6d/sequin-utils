@@ -43,8 +43,8 @@ const coinUtils = new CryptoNote()
 ### Javascript
 
 ```javascript
-const SequinUtils = require('sequin-utils')
-const coinUtils = new SequinUtils.CryptoNote()
+const TurtleCoinUtils = require('sequin-utils')
+const coinUtils = new TurtleCoinUtils.CryptoNote()
 ```
 
 ### Browser Support
@@ -52,10 +52,10 @@ const coinUtils = new SequinUtils.CryptoNote()
 When packing for the browser with a tool like [webpack](https://webpack.js.org/) we advise that you use the ready `event` of the webpacked module to determine when the Cryptographic methods are available.
 
 ```html
-<script src="SequinUtils.js"></script>
+<script src="TurtleCoinUtils.js"></script>
 <script>
-  SequinUtils.on('ready', () => {
-    const coinUtils = new SequinUtils.CryptoNote()
+  TurtleCoinUtils.on('ready', () => {
+    const coinUtils = new TurtleCoinUtils.CryptoNote()
   })
 </script>
 ```
